@@ -10,13 +10,13 @@ public class ReadLier extends User implements Reader, Supplier {
 
     @Override
     public void takeBook(Administrator administrator, Printable printable) {
-        System.out.println("Читатель " + this.name + " попросил у администратора " + administrator + " книгу");
+        System.out.println("Читатель " + this.name + " попросил у администратора " + administrator + " книгу " + printable);
         administrator.findBook(this, printable);
     }
 
     @Override
     public void returnBook(Administrator administrator, Printable printable) {
-        System.out.println("Читатель " + name + " вернул книгу " + printable + " " + administrator);
+        System.out.println("Читатель " + name + " вернул книгу " + printable + " администратору " + administrator);
     }
 
     @Override
