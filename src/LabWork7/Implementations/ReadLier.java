@@ -2,7 +2,7 @@ package LabWork7.Implementations;
 
 import LabWork7.Interfaces.*;
 
-public class ReadLier extends User implements Reader, Supplier {
+public final class ReadLier extends User implements Reader, Supplier {
 
     public ReadLier(String name) {
         super(name);

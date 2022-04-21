@@ -2,7 +2,7 @@ package LabWork7.Implementations;
 
 public abstract class User {
 
-    protected String name;
+    protected final String name;
 
     public User(String name) {
         this.name = name;

@@ -2,7 +2,7 @@ package LabWork7.Implementations;
 
 import LabWork7.Interfaces.Printable;
 
-public class Book implements Printable {
+public final class Book implements Printable {
 
     private final String title;
 

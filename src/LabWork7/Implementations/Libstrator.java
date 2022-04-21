@@ -2,7 +2,7 @@ package LabWork7.Implementations;
 
 import LabWork7.Interfaces.*;
 
-public class Libstrator extends User implements Librarian, Administrator {
+public final class Libstrator extends User implements Librarian, Administrator {
 
     public Libstrator(String name) {
         super(name);
